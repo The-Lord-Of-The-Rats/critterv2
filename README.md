@@ -1,1 +1,4 @@
-# critterv2
+# critterv2 is a text based game that I will be programming for fun and to challenge myself, I will need to learn some more about javascript and creating things like objects and dealing with functions and variables. i would eventually like to host the game on pages.github.com. i am going to create a github repository for the project as well.
+  I will be programming in javascript using vscode for web, and GitHub web, I want the game to be very simple in visuals and also in concepts and understanding in the beginning
+    the premise of the game is adjacent to pokemon, where you have a team of creatures (I am thinking 3-4 maybe 5??) where you can use turn-based attacks on your opponent's team of critters and they can attack back, 
+    for version 0.1 I want to just have 3 creatures on your team to see that I can do it, eventually, I want to be able to catch more creatures and have events take place and more in-depth systems but as of right now I just want it to be very simple for a "proof of concept" type thing. 
