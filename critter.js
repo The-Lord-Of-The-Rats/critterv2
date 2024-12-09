@@ -1,5 +1,5 @@
 class name {
-    constructor(name,health,attack,defense,effects){
+    Critter(name,health,attack,defense,effects){
         this.name=name
         this.health=health
         this.attack=attack
@@ -15,9 +15,11 @@ class name {
     status(){
         if (this.health>0){
             console.log(`${this.name}: HP = ${this.health}`)
+                //if(this.effects.length == 0)
             elseif(this.health<=0)
                 console.log(`${this.name} is unconscious`)
                 }
+            
     }//This is how you check the status of a creature, eventually i will  
         // I need to figure out how to display effects better
         // if (this.effects){
@@ -26,3 +28,9 @@ class name {
         // //         console.log()
         // // }
 }
+
+const lupawisp = new Critter("Lupawisp",60,7)
+const mossbud = new Critter("Mossbud",120,4)
+const shroomlet = new Critter("Shroomlet",40,9)
+
+
